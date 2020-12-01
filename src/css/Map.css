@@ -52,5 +52,25 @@
   font-family: "Lato", sans-serif;
   font-weight: normal;
   font-size: 15px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+@media(max-width:1000px){
+  .app__map h1 {
+    position: absolute;
+    top:45vh;
+    left: 39vw;
+    z-index: 100;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 5px;
+    transition: all 0.7s ease;
+  }
+  .app__map:hover h1 {
+    top:35vh;
+    opacity: 0;
+    left: -5vw;
+    font-size: 100px;
+    letter-spacing: 100px;
+  }
 }
