@@ -57,7 +57,7 @@
 @media(max-width:1000px){
   .app__map h1 {
     position: absolute;
-    top:45vh;
+    top:35vh;
     left: 39vw;
     z-index: 100;
     font-family: "Lato", sans-serif;
