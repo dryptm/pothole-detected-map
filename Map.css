@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&display=swap");
+.app__map {
+  position: relative;
+  opacity: 0.2;
+  transition: all 0.5s ease;
+}
+.app__map h1 {
+  position: absolute;
+  top: 40%;
+  left: 49vw;
+  z-index: 100;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 5px;
+  transition: all 0.7s ease;
+}
+.app__map:hover {
+  opacity: 1;
+}
+.app__map:hover h1 {
+  top: 0;
+  opacity: 0;
+  left: 38vw;
+  font-size: 100px;
+  letter-spacing: 100px;
+}
+.app__map img {
+  transition: all 0.5s;
+}
+.app__map img:hover {
+  transform: scale(1.5);
+}
+.app__map img:hover + div {
+  opacity: 0.8;
+}
+.pothole__info {
+  margin-top: 10px;
+  margin-left: -45%;
+  margin-right: 45%;
+  background-color: black;
+  border-radius: 20px;
+  opacity: 0;
+  padding: 10px;
+  transition: all 0.7s;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+}
+.pothole__info h2 {
+  color: whitesmoke;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
